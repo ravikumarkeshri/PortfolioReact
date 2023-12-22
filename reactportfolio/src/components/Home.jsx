@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaArrowRight} from 'react-icons/fa'
-import myImage from '../assets/ravi k copy.jpg'
+import myImage from '../assets/ravi.jpg'
 import { Link } from 'react-scroll'
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
 
 
                     <div>
-                        <Link to="portfolio" smooth duration={500} className= 'sm:block group text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-md px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 flex justify-center items-center gap-2 ' >
+                        <Link to="portfolio" smooth duration={500} className= 'w-[150px] text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 flex justify-center items-center gap-2 ' >
                             PortFolio <span className='group-hover:rotate-90 duration-200'> {<FaArrowRight />}</span>
                         </Link>
                     </div>
@@ -27,7 +27,7 @@ const Home = () => {
                 <div
                    >
                     <img src={myImage}
-                        className='rounded-2xl mx-auto w-2/3 md:w-full'
+                        className='rounded-2xl mx-auto   w-[400px] h-[300px] -rotate-90'
                         alt="Image Missing" />
                 </div>
             </div>
