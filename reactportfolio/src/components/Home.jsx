@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaArrowRight, FaArrowDown } from 'react-icons/fa'
+import { FaArrowRight} from 'react-icons/fa'
 import myImage from '../assets/ravi k copy.jpg'
 import { Link } from 'react-scroll'
 
